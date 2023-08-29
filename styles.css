@@ -16,6 +16,7 @@ h1 {
 h2 {
     font-size: 62px;
 }
+
 ul, ol {
     font-size: 32px;
     list-style-position: inside;
@@ -24,4 +25,12 @@ ul, ol {
 
 p {
     font-size: 32px
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: auto;
 }
