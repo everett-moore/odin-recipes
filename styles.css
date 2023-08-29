@@ -2,7 +2,7 @@ body {
     background-color: rgb(50, 50, 50);
 }
 
-h1, a, ul {
+h1, a, ul, ol, h2, p {
     color: white;
     font-family: 'Times New Roman', sans-serif;
     text-align: center;
@@ -13,8 +13,15 @@ h1 {
     font-size: 72px;
 }
 
-ul {
+h2 {
+    font-size: 62px;
+}
+ul, ol {
     font-size: 32px;
     list-style-position: inside;
     list-style-type: none;
+}
+
+p {
+    font-size: 32px
 }
