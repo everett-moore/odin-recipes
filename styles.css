@@ -2,9 +2,19 @@ body {
     background-color: rgb(50, 50, 50);
 }
 
-h1 {
+h1, a, ul {
     color: white;
     font-family: 'Times New Roman', sans-serif;
-    font-size: 72px;
     text-align: center;
+    background-color: rgb(35, 35, 35);
+}
+
+h1 {
+    font-size: 72px;
+}
+
+ul {
+    font-size: 32px;
+    list-style-position: inside;
+    list-style-type: none;
 }
